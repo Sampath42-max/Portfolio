@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampath Kumar Gummidi - AI Engineer & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Diamond Background Canvas -->
+    <canvas id="diamondCanvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SK</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="typing-text">Hi, I'm Sampath Kumar</span>
+                </h1>
+                <h2 class="hero-subtitle">AI Engineer & Full Stack Developer</h2>
+                <p class="hero-description">
+                    Final-year ECE student passionate about Generative AI, AWS, and IoT. 
+                    Building innovative solutions with cutting-edge technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-robot"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Background</h3>
+                        <p>I am a final-year B.Tech student in Electronics and Communication Engineering at Godavari Institute of Engineering and Technology, Rajahmundry. With a strong foundation in both hardware and software technologies, I specialize in Python, IoT, Generative AI, and AWS.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Achievements</h3>
+                        <p>My coding and problem-solving abilities are evidenced by earning the Python Gold Badge on HackerRank. I have hands-on experience in building real-time projects using diverse tech stacks and have contributed to multiple AI-driven solutions.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h4>7.88/10</h4>
+                        <p>Academic CGPA</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>50+</h4>
+                        <p>Users Impacted</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>90%</h4>
+                        <p>Manual Work Reduced</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>5</h4>
+                        <p>Major Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-item">
+                        <span>Generative AI</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AI Agents</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>NLP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Cloud</h3>
+                    <div class="skill-item">
+                        <span>Flask</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AWS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Hardware & IoT</h3>
+                    <div class="skill-item">
+                        <span>IoT Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Electronics</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Circuit Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-comments"></i>
+                        <h3>Virtual AI Debate Platform</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Built an AI debate platform with real-time interaction for 50+ users. Integrated 3+ AI/NLP tools for topic-based, structured debates.</p>
+                        <div class="project-tags">
+                            <span>AI/NLP</span>
+                            <span>Real-time</span>
+                            <span>Full-stack</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>50+</strong>
+                                <span>Active Users</span>
+                            </div>
+                            <div class="stat">
+                                <strong>90%+</strong>
+                                <span>Responsiveness</span>
+                            </div>
+                        </div>
+                         <div class="project-link">
+                            <a href="https://virtual-ai-debate.vercel.app/" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-user-check"></i>
+                        <h3>Applicant Tracking System</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Designed a resume analysis system that scored and optimized resumes using NLP-based job matching.</p>
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Resume Analysis</span>
+                            <span>Automation</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>100+</strong>
+                                <span>Profiles Processed</span>
+                            </div>
+                            <div class="stat">
+                                <strong>80%</strong>
+                                <span>Efficiency Boost</span>
+                            </div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://applicant-tracking-system-eight.vercel.app/" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Stock Market Prediction</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Implemented a stock prediction model achieving 75–90% accuracy in short-term trend forecasting using LSTM and ARIMA.</p>
+                        <div class="project-tags">
+                            <span>Deep Learning</span>
+                            <span>LSTM</span>
+                            <span>Financial Analysis</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>75-90%</strong>
+                                <span>Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <strong>100+</strong>
+                                <span>Stocks Analyzed</span>
+                            </div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/Sampath42-max/Stock-Market-Predict" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                             <i class="fas fa-hand-pointer"></i>
+                        <h3>AI Virtual Mouse</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>The AI Virtual Mouse is an advanced computer interaction system that enables users to control their cursor using hand gestures, eliminating the need for a physical mouse. It leverages computer vision and AI to track hand movements and execute various commands like clicking, scrolling, and dragging.</p>
+                        <div class="project-tags">
+                            <span>Computer Vision</span>
+                            <span>Hand Tracking</span>
+                            <span>AI</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>Real-time</strong>
+                                <span>Hand Tracking</span>
+                            </div>
+                            <div class="stat">
+                                <strong>Gesture</strong>
+                                <span>Recognition</span>
+                            </div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/Sampath42-max/AI-Virtual-Mouse" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Auto Certificate Generator</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Engineered an automated certificate generator, reducing manual effort by 90% with seamless data integration.</p>
+                        <div class="project-tags">
+                            <span>Automation</span>
+                            <span>Data Integration</span>
+                            <span>Workflow</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>90%</strong>
+                                <span>Effort Reduced</span>
+                            </div>
+                            <div class="stat">
+                                <strong>100+</strong>
+                                <span>Certificates/Min</span>
+                            </div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/Sampath42-max/Auto-Certificate-Generator" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Generative AI and AWS Intern</h3>
+                                <div class="company">TECHWING</div>
+                                <div class="duration">May 2025 - June 2025</div>
+                                <div class="location">Rajahmundry, Andhra Pradesh, India</div>
+                            </div>
+                            <div class="experience-details">
+                                <ul>
+                                    <li>Supported staff in daily operations, reducing manual workload by 30% and enabling teams to focus on high-priority tasks</li>
+                                    <li>Collaborated with 5+ team members to resolve 10+ technical issues, streamlining processes and boosting efficiency</li>
+                                    <li>Contributed to 3+ group projects and 2 presentations, helping maintain a 100% on-time delivery rate</li>
+                                    <li>Assisted in deploying 2 AI-driven solutions on AWS, reducing model deployment time by 40%</li>
+                                </ul>
+                            </div>
+                            <div class="experience-achievements">
+                                <div class="achievement">
+                                    <strong>30%</strong>
+                                    <span>Workload Reduction</span>
+                                </div>
+                                <div class="achievement">
+                                    <strong>40%</strong>
+                                    <span>Faster Deployment</span>
+                                </div>
+                                <div class="achievement">
+                                    <strong>100%</strong>
+                                    <span>On-time Delivery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4>Bachelor of Technology</h4>
+                            <h5>Electronics and Communication Engineering</h5>
+                            <p>Godavari Institute of Engineering and Technology</p>
+                            <div class="education-details">
+                                <span class="duration">September 2022 - April 2026</span>
+                                <span class="gpa">CGPA: 7.88/10</span>
+                            </div>
+                            <div class="location">Rajahmundry, Andhra Pradesh, India</div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4>Intermediate (12th)</h4>
+                            <h5>MPC Stream</h5>
+                            <p>Sri Chaitanya Jr College</p>
+                            <div class="education-details">
+                                <span class="duration">May 2020 - April 2022</span>
+                                <span class="gpa">Percentage: 82%</span>
+                            </div>
+                            <div class="location">Rajahmundry, Andhra Pradesh, India</div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4>10th Class</h4>
+                            <h5>Secondary School Certificate</h5>
+                            <p>Sri Chaitanya Techno School</p>
+                            <div class="education-details">
+                                <span class="duration">June 2019 - April 2020</span>
+                                <span class="gpa">Percentage: 97.7%</span>
+                            </div>
+                            <div class="location">Rajahmundry, Andhra Pradesh, India</div>
+                        </div>
+                    </div>
+                
+                <div class="certifications-section">
+                    <h3>Certifications</h3>
+                    <div class="certifications-list">
+                        <div class="cert-item">
+                            <i class="fab fa-python"></i>
+                            <div>
+                                <h4>Python Essentials 2</h4>
+                                <p>CISCO</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-cloud"></i>
+                            <div>
+                                <h4>Cloud Infrastructure</h4>
+                                <p>ORACLE</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-python"></i>
+                            <div>
+                                <h4>Python Essentials 1</h4>
+                                <p>CISCO</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-medal"></i>
+                            <div>
+                                <h4>Python Gold Badge</h4>
+                                <p>HackerRank</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing new opportunities, innovative projects, and collaborations in AI and technology.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:sampathgummidi@gmail.com">sampathgummidi@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919392995907">+91 9392995907</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Aryapuram, Andhra Pradesh, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/sampath-321527322" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Sampath42-max" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Sampath Kumar Gummidi. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
